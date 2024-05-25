@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: bisque;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+}
+
+.item{
+    width: 30%;
+    padding: 10px;
+    box-shadow: 0 0 10px 0 rgb(235, 206, 206);
+    background-color: white;
+    border-radius: 5px;
+}
+
+#qr-heading{
+    text-align: center;
+    margin-bottom: 5px;
+    
+}
+
+#qr-input{
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 8px;
+    border-radius: 5px;
+
+}
+
+#qr-btn{
+    width: 100%;
+    background-color: green;
+    color: white;
+    padding: 5px;
+}
+
+#qr-img{
+    display: block;
+    margin:0 auto;
+    width: 40%;
+    margin-top: 10px;
+}
