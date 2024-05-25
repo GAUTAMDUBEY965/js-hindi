@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#input{
+    width: 130%;
+    padding: 15px;
+    background-color: antiquewhite;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: large;
+    color: black;
+    margin-bottom: 5px;
+    
+}
+
+.output{
+    position: relative;
+    top: 40px;
+    right: 200px;
+}
